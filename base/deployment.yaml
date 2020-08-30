@@ -22,7 +22,7 @@ spec:
         app: demo-app
     spec:
       containers:
-      - image: mischl/demo:latest
+      - image: mischl/demo
         imagePullPolicy: Always
         name: demo
         resources: {}

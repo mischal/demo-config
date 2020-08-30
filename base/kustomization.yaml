@@ -1,3 +1,7 @@
 resources:
   - deployment.yaml
   - service.yaml
+
+images:
+  - name: mischl/demo
+    newTag: 0.11

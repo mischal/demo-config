@@ -8,7 +8,7 @@ spec:
   rules:
     - http:
         paths:
-          - path: /demo2
+          - path: /demo
             backend:
               serviceName: demo-app
               servicePort: 8080
